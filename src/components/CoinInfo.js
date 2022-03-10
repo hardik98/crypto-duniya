@@ -11,6 +11,7 @@ import {
 import SelectButton from "./SelectButton";
 import { chartDays } from "../config/data";
 import { useSelector } from "react-redux";
+// eslint-disable-next-line no-unused-vars
 import Chart from "chart.js/auto";
 
 const CoinInfo = ({ coin }) => {

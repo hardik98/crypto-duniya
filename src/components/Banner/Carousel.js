@@ -83,7 +83,7 @@ const Carousel = () => {
 
   React.useEffect(() => {
     dispatch(getTrendingCrypto({ currency }));
-  }, [currency]);
+  }, [currency, dispatch]);
 
   return (
     <div className={classes.carousel}>

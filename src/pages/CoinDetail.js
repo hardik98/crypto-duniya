@@ -71,7 +71,7 @@ const CoinDetail = () => {
 
   React.useEffect(() => {
     dispatch(getSelectedCrypto({ coinId }));
-  }, [coinId]);
+  }, [coinId, dispatch]);
 
   if (selectedCoin.loading) {
     return <LinearProgress style={{ backgroundColor: "gold" }} />;
